@@ -201,6 +201,20 @@ img {
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+.features-item-icon {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.features-icon {
+  height: 64px;
+  width: 64px;
+}
 .text-features-title {
   font-weight: 500;
   font-size: 20px;
@@ -457,6 +471,10 @@ img {
 }
 .flex-element {
   flex-basis: calc((100% - 48px) / 3);
+}
+.flex-element:hover,
+.flex-element:focus {
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .flex-element-text {
   border-color: #e7e9fc;
